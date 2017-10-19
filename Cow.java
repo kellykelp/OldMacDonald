@@ -15,4 +15,6 @@ class Cow implements Animal//implements Animal
 	}
 	public String getSound() {return mySound;}
 	public String getType() {return myType;}
+	public String setSound(String s) {mySound = s;}
+	public String setType(String t) {myType = t;}
 }

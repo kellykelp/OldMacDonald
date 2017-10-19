@@ -11,7 +11,7 @@ class Chick implements Animal//implements Animal
 	public Chick(String type, String sound1, String sound2)
 	{
 		myType = type;
-		double rand = Math.random()*1;
+		double rand = Math.random();
 		if (rand < 0.5)
 			mySound = sound1;
 		else
