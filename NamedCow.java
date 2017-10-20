@@ -20,12 +20,12 @@
 
 class NamedCow extends Cow 
 {
-	private String myName
+	private String myName;
 	public NamedCow(String type, String cowName, String sound) 
 	{
 		myName = cowName;
-		cow.setType(type);
-		cow.setSound(sound);
+		myType = type;
+		mySound = sound;
 	}
 
 	public String getName() 

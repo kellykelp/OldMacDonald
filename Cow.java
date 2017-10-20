@@ -1,7 +1,7 @@
 class Cow implements Animal//implements Animal 
 {     
-	private String myType;
-	private String mySound;
+	protected String myType;
+	protected String mySound;
 	public Cow(String type, String sound)
 	{
 		myType = type; 
@@ -15,6 +15,7 @@ class Cow implements Animal//implements Animal
 	}
 	public String getSound() {return mySound;}
 	public String getType() {return myType;}
-	public String setSound(String s) {mySound = s;}
-	public String setType(String t) {myType = t;}
+	// public void setSound(String s) {mySound = s;}
+	// public void setType(String t) {myType = t;}
+		// CONSTRUCTORS ARE NOT INHERITED IN EXTENDED CLASS
 }
